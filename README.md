@@ -2,7 +2,7 @@
 
 ## About guard.py
 
-**I strongly suggest thtat using watchdog because its speed.**
+**I strongly suggest that using watchdog because its VERY FAST and tested.**
 
 - Summary:
   - `file_guard.py` monitors a single target file for replacement or tampering, and restores it from a backup when changes are detected.
