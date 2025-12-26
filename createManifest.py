@@ -15,7 +15,7 @@ def calc_md5(file_path, chunk_size=1024 * 1024):
 
 def main():
     if len(sys.argv) < 2:
-        print("请将一个或多个 .pak 文件拖入该脚本运行。")
+        print("Please pass in the path of the pak file as a parameter, supporting multiple files.")
         return
 
     result = []
@@ -43,3 +43,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
